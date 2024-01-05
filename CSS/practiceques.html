@@ -1,0 +1,61 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions</title>
+    <link rel="stylesheet" href="pq.css">
+</head>
+<body>
+    <h2>Hi there!</h2>
+    <p>My name is Tom & I am there to help you.</p>
+    <button>Need Help</button>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ques</title>
+
+    <style>
+        /* Importance hierarchy  : id > class > element */
+        h1{
+            color: pink;  
+        }
+        #greet{
+            color: yellow;
+        }
+        .myClass{
+            color: brown;
+        }
+
+        /* Hierarchy : class > desc > ele  */
+        div p{
+            background-color: black;
+            /* 1. Descendant s
+            0(id) 0(class) 2(ele)  = 2 */
+        }
+        .para{
+            background-color: blue;
+            /* 2. Class s
+            0(id) 1(class) 0(ele) = 10 */
+        }
+        p{
+            background-color: green;
+            /* 3. Ele Sel
+            0(id) 1(class) 1(ele) = 1 */
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1 id="greet" class="myClass">Hello!</h1>
+    <div>
+        <p class="para">Paragraph</p>
+    </div>
+</body>
+</html>

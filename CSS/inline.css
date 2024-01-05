@@ -1,0 +1,43 @@
+/* h2{
+    display: inline;
+    background-color: rgb(11, 120, 215);
+}
+span{
+    display: block;
+    background-color: blueviolet;
+} */
+
+/* span{
+    background-color: rgb(68, 136, 156);
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 20px;
+}
+div{
+    background-color: rgb(68, 136, 156);
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 20px;
+} */
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(120, 207, 120);
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-block;
+}
+
+#none{
+    display: none;
+}
+
+h1{
+    border: 5px solid black;
+    width: 33%;
+}

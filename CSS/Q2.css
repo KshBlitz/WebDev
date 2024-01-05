@@ -1,0 +1,41 @@
+*{
+    font-family: Courier;
+}
+
+/* h1{
+    color: #1b74e4;
+} */
+
+.btn{
+    background-color: black;
+    color: white;
+}
+
+.login, .signup{
+    background-color: aqua;
+}
+
+@keyframes color-change{
+    from{
+        color: rgb(111, 186, 248)
+    }
+    25%{
+        color: rgb(0, 183, 255);
+    }
+    50%{
+        color: #1b74e4;
+    }
+    75%{
+        color: rgb(39, 116, 139);
+    }
+    to{
+        color: rgb(0, 183, 255);
+    }
+}
+
+h1{
+    color: #1b74e4;
+    animation-name: color-change;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+}
