@@ -1,0 +1,87 @@
+section{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 194, 194);
+}
+
+.face{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 186, 13);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* .eye{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    position: relative;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+} */
+
+.righteye, .lefteye{
+    width: 50px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.righteye{
+    left: 250px;
+}
+
+.mouth{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(255, 109, 109);
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+
+.mouth:hover{
+    background-color: rgb(255, 0, 0);
+    border-radius: 0 0 50px 50px;
+    height: 75px;
+    width: 200px;
+}
+
+.lefteye:hover, .righteye:hover{
+    background-color: rgb(117, 0, 0);
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+}
