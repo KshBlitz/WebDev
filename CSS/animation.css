@@ -1,0 +1,32 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: orchid;
+    animation-name: fontAnim;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+}
+
+h1{
+    background-color: blue;
+}
+
+@keyframes fontAnim {
+    from{
+        font-size: 20px;
+    }
+
+    to{
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 400px) {
+    div{
+        background-color: red;
+    }
+}
+
