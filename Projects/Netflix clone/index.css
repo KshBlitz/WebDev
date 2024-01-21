@@ -12,7 +12,7 @@ body{
 
 header{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     padding: 26px 56px;
     position: absolute;
     width: 100%;
@@ -130,5 +130,17 @@ div.splash h1{
 }
 
 div.splash p{
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin-top: 13px;
+    margin-bottom: 29px;
+}
+
+div.splash form{
+    display: grid;
+    grid-template-columns: 1fr max-content;
+}
+
+div.splash form input{
+    padding: 10px;
+    
 }
